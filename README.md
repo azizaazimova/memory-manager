@@ -1,3 +1,5 @@
+# memory-manager
+
 # Virtual Memory Manager (NFU Page Replacement)
 
 A C/C++ simulation of a paged virtual memory manager implementing the **NFU (Not Frequently Used)** page replacement algorithm, virtual-to-physical address translation, and dirty-page tracking.
