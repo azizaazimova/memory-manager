@@ -1,0 +1,16 @@
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++11
+
+TARGET = nfu_test
+SRCS = NFUPageReplacement.cpp NFUPageReplacementmain.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+  $(CXX) $(CXXFLAGS) $(SRCS) -o $(TARGET)
+
+test: $(TARGET)
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET)
