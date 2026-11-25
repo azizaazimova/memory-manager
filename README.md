@@ -1,4 +1,3 @@
-# memory-manager
 # Virtual Memory Manager (NFU Page Replacement)
 
 A C/C++ simulation of a paged virtual memory manager implementing the **NFU (Not Frequently Used)** page replacement algorithm, virtual-to-physical address translation, and dirty-page tracking.
@@ -14,13 +13,10 @@ A C/C++ simulation of a paged virtual memory manager implementing the **NFU (Not
 ## Project Structure
 
 ```text
-├── include/
-│   └── os_mem_ex.h      # Memory manager interface definitions
-├── src/
-│   └── vmm_nfu.cpp      # Virtual memory manager & NFU implementation
-├── tests/
-│   └── test_vmm.cpp     # Unit tests covering edge cases and replacement logic
-└── Makefile             # Build and test automation
+├── os_mem_ex.h                 # Memory manager interface definitions
+├── NFUPageReplacement.cpp      # Virtual memory manager & NFU implementation
+├── NFUPageReplacementmain.cpp  # Unit tests covering edge cases and replacement logic
+└── Makefile                    # Build and test automation
 ```
 
 ## Build & Run Tests
